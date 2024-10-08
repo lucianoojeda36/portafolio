@@ -31,6 +31,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: "api-getway.png",
+    title: "API Gateway and Authentication Microservice",
+    info: "A project leveraging microservices architecture, featuring an API Gateway in Node.js and a Python-based authentication microservice.",
+    info2:
+      "The API Gateway is implemented with Node.js and TypeScript, while the authentication microservice is built with Django in Python. Both services are deployed on AWS EC2 instances. The project includes a CI/CD pipeline integrated with Docker Hub and EC2, enabling continuous integration and deployment. JWT-based authentication ensures secure communication between services, providing a scalable and decoupled solution.",
+    url: "https://github.com/lucianoojeda36/auth-service",
+    repo: "https://github.com/lucianoojeda36/appi-getway",
+  },
+  {
+    id: nanoid(),
     img: "cookBook2.jpg",
     title: "Cook Book Mobile App 1",
     info: "project based on an app that compiles different cooking recipes.",
@@ -76,16 +86,6 @@ export const projectsData = [
     info2: "Carried out using React_Native |Redux |NodeJS |MongoDb",
     url: "",
     repo: "https://github.com/lucianoojeda36/Clon-de-Netflix", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "api-getway.png",
-    title: "API Gateway and Authentication Microservice",
-    info: "A project leveraging microservices architecture, featuring an API Gateway in Node.js and a Python-based authentication microservice.",
-    info2:
-      "The API Gateway is implemented with Node.js and TypeScript, while the authentication microservice is built with Django in Python. Both services are deployed on AWS EC2 instances. The project includes a CI/CD pipeline integrated with Docker Hub and EC2, enabling continuous integration and deployment. JWT-based authentication ensures secure communication between services, providing a scalable and decoupled solution.",
-    url: "https://github.com/lucianoojeda36/auth-service",
-    repo: "https://github.com/lucianoojeda36/appi-getway",
   },
 
   // {
